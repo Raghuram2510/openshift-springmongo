@@ -1,5 +1,0 @@
-com\bulkhiring\openshifttutorial\model\Address.class
-com\bulkhiring\openshifttutorial\boot\Application.class
-com\bulkhiring\openshifttutorial\model\Customer.class
-com\bulkhiring\openshifttutorial\controller\CustomerServiceController.class
-com\bulkhiring\openshifttutorial\repository\CustomerRepository.class

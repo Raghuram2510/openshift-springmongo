@@ -32,6 +32,7 @@ public class CustomerServiceController {
 
 	@RequestMapping("/customer/{id}")
 	public Customer getCustomerDetailsById(@PathVariable("id") int customerId) {
+		System.out.println(customerId);
 		Customer customer = null;
 		if (customerId > 0) {
 			customer = repository.findByCustomerId(customerId);
